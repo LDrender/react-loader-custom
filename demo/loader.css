@@ -1,0 +1,162 @@
+.loader[loader_custom]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #121B2D46
+}
+
+.arrowBox[loader_custom]{
+    display: flex;
+    margin-bottom: 1px;
+}
+
+.arrow[loader_custom]{
+    width: 0;
+    height: 0;
+    margin: 0 -6px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 21.6px solid #fd7000;
+    -webkit-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+    -webkit-filter: drop-shadow(0 0 18px #fd7000);
+    filter: drop-shadow(0 0 18px #fd7000);
+}
+
+.arrow.blue[loader_custom]{
+    border-bottom: 21.6px solid #3f51b5;
+    -webkit-filter: drop-shadow(0 0 18px #3f51b5);
+    filter: drop-shadow(0 0 18px #3f51b5);
+}
+.arrow.purple[loader_custom]{
+    border-bottom: 21.6px solid #7e57c2;
+    -webkit-filter: drop-shadow(0 0 18px #7e57c2);
+    filter: drop-shadow(0 0 18px #7e57c2);
+}
+.arrow.green[loader_custom]{
+    border-bottom: 21.6px solid #1DB954;
+    -webkit-filter: drop-shadow(0 0 18px #1DB954);
+    filter: drop-shadow(0 0 18px #1DB954);
+}
+
+.arrow.down[loader_custom] {
+    transform: rotate(180deg);
+}
+
+@keyframes blink {
+    0% {
+      opacity: 0.1;
+    }
+ 
+    30% {
+      opacity: 1;
+    }
+ 
+    100% {
+      opacity: 0.1;
+    }
+  }
+
+.arrow.inner-1[loader_custom] {
+    -webkit-animation-delay: -0.1666666667s;
+    animation-delay: -0.1666666667s;
+}
+.arrow.inner-2[loader_custom] {
+    -webkit-animation-delay: -0.3333333333s;
+    animation-delay: -0.3333333333s;
+}
+.arrow.inner-3[loader_custom] {
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+.arrow.inner-4[loader_custom] {
+    -webkit-animation-delay: -0.6666666667s;
+    animation-delay: -0.6666666667s;
+}
+.arrow.inner-5[loader_custom] {
+    -webkit-animation-delay: -0.8333333333s;
+    animation-delay: -0.8333333333s;
+}
+.arrow.inner-6[loader_custom] {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}
+
+.arrow.outer-1[loader_custom] {
+    -webkit-animation-delay: -0.0555555556s;
+    animation-delay: -0.0555555556s;
+}
+.arrow.outer-2[loader_custom] {
+    -webkit-animation-delay: -0.1111111111s;
+    animation-delay: -0.1111111111s;
+}
+.arrow.outer-3[loader_custom] {
+    -webkit-animation-delay: -0.1666666667s;
+    animation-delay: -0.1666666667s;
+}
+.arrow.outer-4[loader_custom] {
+    -webkit-animation-delay: -0.2222222222s;
+    animation-delay: -0.2222222222s;
+}
+.arrow.outer-5[loader_custom] {
+    -webkit-animation-delay: -0.2777777778s;
+    animation-delay: -0.2777777778s;
+}
+.arrow.outer-6[loader_custom] {
+    -webkit-animation-delay: -0.3333333333s;
+    animation-delay: -0.3333333333s;
+}
+.arrow.outer-7[loader_custom] {
+    -webkit-animation-delay: -0.3888888889s;
+    animation-delay: -0.3888888889s;
+}
+.arrow.outer-8[loader_custom] {
+    -webkit-animation-delay: -0.4444444444s;
+    animation-delay: -0.4444444444s;
+}
+.arrow.outer-9[loader_custom] {
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+.arrow.outer-10[loader_custom] {
+    -webkit-animation-delay: -0.5555555556s;
+    animation-delay: -0.5555555556s;
+}
+.arrow.outer-11[loader_custom] {
+    -webkit-animation-delay: -0.6111111111s;
+    animation-delay: -0.6111111111s;
+}
+.arrow.outer-12[loader_custom] {
+    -webkit-animation-delay: -0.6666666667s;
+    animation-delay: -0.6666666667s;
+}
+.arrow.outer-13[loader_custom] {
+    -webkit-animation-delay: -0.7222222222s;
+    animation-delay: -0.7222222222s;
+}
+.arrow.outer-14[loader_custom] {
+    -webkit-animation-delay: -0.7777777778s;
+    animation-delay: -0.7777777778s;
+}
+.arrow.outer-15[loader_custom] {
+    -webkit-animation-delay: -0.8333333333s;
+    animation-delay: -0.8333333333s;
+}
+.arrow.outer-16[loader_custom] {
+    -webkit-animation-delay: -0.8888888889s;
+    animation-delay: -0.8888888889s;
+}
+.arrow.outer-17[loader_custom] {
+    -webkit-animation-delay: -0.9444444444s;
+    animation-delay: -0.9444444444s;
+}
+.arrow.outer-18[loader_custom] {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}
