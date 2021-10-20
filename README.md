@@ -1,5 +1,7 @@
 # react-loader-custom
 
+![GitHub all releases](https://img.shields.io/github/downloads/LDrender/react-loader-custom/total)
+
 A React.JS library to create custom loaders
 
 ## Demo
