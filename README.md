@@ -7,4 +7,4 @@ A React.JS library to create custom loaders
 
 ## Demo
 
-Demo rendering (html / css) : [demo](https://jsfiddle.net/Drims/z3h2sfvk/)
+Demo rendering (html / css) : [demo](https://jsfiddle.net/Drims/z3h2sfvk/5/)
